@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Form Table Feedback form</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <br>
+
+    <div id="form">
+        <form action="/action">
+            <br>
+            <div>
+              <b>Name:</b> <input type="text" placeholder="Enter your full nam">
+            </div>
+            <br>
+            <div>
+              <b>sex:</b> <input type="radio" name="sex" id="male" value="male">
+              <label for="male"> male</label>
+              <input type="radio" name="sex" id="female" value="female">
+              <label for="female"> female</label>
+              <input type="radio" name="sex" id="None" value="None">
+              <label for="None"> None</label>
+            </div>
+            <br>
+            <div>
+                <b>Select your country:</b> <select name="country" id="country">
+                  <option value="India">India</option>
+                  <option value="America">America</option>
+                  <option value="Pakistan"> Pakistan</option>
+              </select>
+            </div>
+            <br>
+            <div>
+                <b>Drop a meesage</b>
+                <br>
+                <textarea name="" id="" cols="30" rows="10"></textarea>
+            </div>
+            <button>submit</button>
+          </form>
+    </div>
+    
+    <script src="app.js"></script>
+  </body>
+</html>

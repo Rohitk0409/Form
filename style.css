@@ -1,0 +1,11 @@
+body{
+    
+}
+#form{
+    background-color: pink;
+    color: black;
+    width: 500px;
+    height: 1000px;
+    border: 2px solid black;
+    padding-left: 14px;
+}
